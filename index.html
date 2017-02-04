@@ -13,7 +13,12 @@
 body {-webkit-text-size-adjust:100%; font-family:sans-serif}
 pre {border:1px solid #000; background:#ffc; word-wrap: break-word; white-space:pre-wrap; padding:0.5em}
 </style>
-<script>if(self!=top){top.location.href=self.location.href;}</script>
+<script>
+if(document.referrer.indexOf('//linkis.com/')!== -1){
+alert("linkis.comによりURLが書き換えられています。\n\n現在のURL："+document.referrer+"\n正規のURL："+ document.location.href+"\n\n正規のURLに移動します\n\n書き換えられていることは、ブラウザのアドレスバーで確認できます。");
+parent.location.href = document.location.href;
+}
+</script>
 </head>
 
 <body>
