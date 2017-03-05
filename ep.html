@@ -39,6 +39,10 @@ pre {border:1px solid #000; background:#ffc; word-wrap: break-word; white-space:
 <li>IDスクロール機能（今のままだと人数が多すぎるときには画面を埋め尽くしてしまう可能性あり）
 </ul>
 
+<h2>特定のIDの色を変えるブックマークレット</h2>
+<pre>javascript:(function(){setInterval(function(){$("b").each(function(){if($(this).text()=="■ここにIDを入れる■："){$(this).parent().css("color","#ddd")}})},1000)})()</pre>
+■ここにIDを入れる■にIDを入れると使用可能　使える色は#dddの部分で指定
+
 <a href="..">トップへ戻る</a>
 
 </body>
