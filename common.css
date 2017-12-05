@@ -5,7 +5,7 @@ body {
 }
 @font-face {
 	font-family: "ヒラギノ丸ゴ Pro W4";
-	src: local("ヒラギノ角ゴ Pro W6"),local("ヒラギノ角ゴ Pro"),local("Hiragino Kaku Gothic Pro"),sans-serif;
+	src: local("ヒラギノ角ゴ Pro W6"),local("ヒラギノ角ゴ Pro"),local("Hiragino Kaku Gothic Pro");
 	font-weight: bold;
 }
 
