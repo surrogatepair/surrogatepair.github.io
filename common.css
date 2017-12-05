@@ -1,0 +1,18 @@
+body {
+	font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro",sans-serif;
+	-webkit-text-size-adjust: 100%;
+	font-feature-settings: "palt";
+}
+@font-face {
+	font-family: "ヒラギノ丸ゴ Pro W4";
+	src: local("ヒラギノ角ゴ Pro W6"),local("ヒラギノ角ゴ Pro"),local("Hiragino Kaku Gothic Pro"),sans-serif;
+	font-weight: bold;
+}
+
+pre {
+	border: 1px solid #000;
+	background: #ffc;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	padding: 0.5em
+}
