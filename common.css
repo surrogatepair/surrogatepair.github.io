@@ -1,12 +1,32 @@
+:root {
+	--bgcolor: white;
+	--fontcolor: black;
+	--link: #00E;
+	--visited: #551A8B;
+	--yellow: #FFC;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bgcolor: black;
+		--fontcolor: white;
+		--link: #6AF;
+		--visited: #ab6de3;
+		--yellow: #442;
+	}
+}
+
 body {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	font-feature-settings: "palt";
+	background: var(--bgcolor);
+	color: var(--fontcolor);
 }
 
 pre {
-	border: 1px solid #000;
-	background: #ffc;
+	border: 1px solid var(--fontcolor);
+	background: var(--yellow);
 	word-wrap: break-word;
 	white-space: pre-wrap;
 	padding: 0.5em
